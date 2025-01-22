@@ -1,19 +1,29 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
   }
- ],
- "metadata": {
-  "language_info": {
-   "name": "python"
-  },
-  "orig_nbformat": 4
- },
- "nbformat": 4,
- "nbformat_minor": 2
-}
+  
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  
+  li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+  }
