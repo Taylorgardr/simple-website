@@ -28,14 +28,10 @@
   .dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
-    --bg: var(--black);
-    --fontColor: var(--green);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
   }
   .btn {
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
     position: absolute;
     top: 20px;
     left: 250px;
@@ -45,5 +41,4 @@
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
-    
   }
