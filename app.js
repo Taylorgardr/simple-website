@@ -13,5 +13,5 @@ switcher.addEventListener('click', function() {
         this.textContent = "Light";
     }
 
-    console.log('CS214: ' + jQuery/JavaScript);
+    console.log('current class name: ' + className);
 });
